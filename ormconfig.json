@@ -1,0 +1,23 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "",
+  "database": "test",
+  "entities": [
+    "C:\\Users\\Tomas\\Desktop\\Probando Nest.js\\primer-proyecto-nest\\dist\\config../**/**/*entity{.ts,.js}"
+  ],
+  "autoLoadEntities": true,
+  "migrations": [
+    "C:\\Users\\Tomas\\Desktop\\Probando Nest.js\\primer-proyecto-nest\\dist\\config../migration/**/*{.ts,.js"
+  ],
+  "migrationsTableName": "migrations_typeorm",
+  "migrationsRun": true,
+  "cli": {
+    "migrationsDir": "src/migration"
+  },
+  "synchronize": false,
+  "logging": true,
+  "logger": "file"
+}
